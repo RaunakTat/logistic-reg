@@ -13,7 +13,6 @@ y = dataframe.iloc[:,13].values
 from sklearn.model_selection import train_test_split
 x_train,x_test,y_train,y_test = train_test_split(x,y,random_state = 0)
 
-
 #scaling the input data due to huge difference in values in different columns
 from sklearn.preprocessing import MinMaxScaler
 scaler = MinMaxScaler()
